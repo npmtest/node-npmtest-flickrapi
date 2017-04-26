@@ -1,6 +1,6 @@
 # npmtest-flickrapi
 
-#### test coverage for  [flickrapi (v0.6.0)](https://github.com/Pomax/node-flickrapi#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-flickrapi.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-flickrapi) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-flickrapi.svg)](https://travis-ci.org/npmtest/node-npmtest-flickrapi)
+#### basic test coverage for  [flickrapi (v0.6.0)](https://github.com/Pomax/node-flickrapi#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-flickrapi.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-flickrapi) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-flickrapi.svg)](https://travis-ci.org/npmtest/node-npmtest-flickrapi)
 
 #### A Node.js, and client-side, implementation of the Flickr API (for use with an API key, server-side oauth enabled)
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-flickrapi/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-flickrapi/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-flickrapi/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-flickrapi/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-flickrapi/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-flickrapi/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-flickrapi/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-flickrapi/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-flickrapi/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-flickrapi/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-flickrapi/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-flickrapi/build/coverage.html/index.html)
 
@@ -90,7 +90,8 @@
     "scripts": {
         "test": "node test"
     },
-    "version": "0.6.0"
+    "version": "0.6.0",
+    "bin": {}
 }
 ```
 
